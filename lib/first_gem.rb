@@ -4,7 +4,12 @@ require "first_gem/hello"
 module FirstGem
     class Cust
 		def self.listing_cust
-			return "Listing Customers"
+			return "Listing Customers!!!"
 		end
     end
+    class Hello
+	def pow(a,b)
+    	a ** b
+	end
+end
 end
