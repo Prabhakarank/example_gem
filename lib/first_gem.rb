@@ -8,7 +8,7 @@ module FirstGem
 		end
     end
     class Hello
-	def pow(a,b)
+	def self.pow(a,b)
     	a ** b
 	end
 end
