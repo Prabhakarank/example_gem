@@ -34,5 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard"
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "coveralls"
-  spec.add_development_dependency "ratyrate"
+  spec.add_runtime_dependency "ratyrate"
 end
